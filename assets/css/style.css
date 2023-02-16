@@ -173,6 +173,17 @@ label {
     text-align: center;
 }
 
+.material-symbols-rounded {
+     color: #00bfff;
+     font-variation-settings:
+        'FILL' 0,
+        'wght' 100,
+        'GRAD' 0,
+        'opsz' 148;
+     }
+
+
+
     .h-caption i {
         display: block;
         font-size: 54px;
@@ -190,6 +201,7 @@ label {
 div.hbox {
     background: #fff;
     padding: 10px 15px;
+    
 }
 
 .h-body {
@@ -267,6 +279,7 @@ img {
 .sidebar {
     padding-top: 36px;
     padding-bottom: 30px;
+    float: right;
 }
 
     .sidebar .panel {
@@ -713,3 +726,26 @@ background-size:initial;
     font-weight:400;
     }
 }
+
+@font-face {
+    font-family: 'Material Symbols Rounded';
+    font-style: normal;
+    font-weight: 100;
+    src: url(https://fonts.gstatic.com/s/materialsymbolsrounded/v86/syl0-zNym6YjUruM-QrEh7-nyTnjDwKNJ_190FjpZIvDmUSVOK7BDB_Qb9vUSzq3wzLK-P0J-V_Zs-QtQth3-jOc7TOVpeRL2w5rwZu2rIekXxc.woff2) format('woff2');
+  }
+  
+  .material-symbols-rounded {
+    font-family: 'Material Symbols Rounded';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 90px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+  }
