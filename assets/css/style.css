@@ -162,7 +162,7 @@ label {
 }
 
 .navbar-inverse {
-    background: #0B1D33;
+    background: #01416f;
 }
 /* Highlights*/
 .highlight {
@@ -174,7 +174,7 @@ label {
 }
 
 .material-symbols-rounded {
-     color: #00bfff;
+     color: #00a99d;
      font-variation-settings:
         'FILL' 0,
         'wght' 100,
@@ -208,17 +208,17 @@ div.hbox {
 }
 
 .jumbotron {
-    background-color: #E0E0E0;
+    background-color: #d8f0ef;
 }
 
 .page-header {
-    border-bottom: 1px solid #15c008;
+    border-bottom: 1px solid #00a99d;
 }
 
 .page-title {
     margin-top: 20px;
     font-weight: 300;
-    color: #15c008;
+    color: #f7941d;
 }
 
 .text-muted {
@@ -284,6 +284,7 @@ img {
 
     .sidebar .panel {
         margin-bottom: 20px;
+        color: #00a99d;
     }
 
     .sidebar h1, .sidebar .h1, .sidebar h2, .sidebar .h2, .sidebar h3, .sidebar .h3 {
